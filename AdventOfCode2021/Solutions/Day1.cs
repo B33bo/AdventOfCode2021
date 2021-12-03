@@ -12,14 +12,14 @@ namespace AdventOfCode2021.Solutions
         public static int SolveA()
         {
             string path = Extensions.GetPath("Inputs/Day1.txt");
-            string[] numbers = File.ReadAllLines(path);
+            string[] inputs = File.ReadAllLines(path);
 
-            int previous = int.Parse(numbers[0]);
+            int previous = int.Parse(inputs[0]);
             int higherNumbers = 0;
 
-            for (int i = 0; i < numbers.Length; i++)
+            for (int i = 0; i < inputs.Length; i++)
             {
-                if (!int.TryParse(numbers[i], out int numberCurrent))
+                if (!int.TryParse(inputs[i], out int numberCurrent))
                     continue;
 
                 if (numberCurrent > previous)
