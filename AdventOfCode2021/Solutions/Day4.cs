@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 //Jesus christ this one was difficult
-//Nevermind I severely under-estimated day4
+//Nevermind I severely under-estimated day4 b
 //Now I have to go fix my awful spelling of 'collum'
 namespace AdventOfCode2021.Solutions
 {
