@@ -199,7 +199,6 @@ namespace AdventOfCode2021.Solutions
 
             }
 
-            Console.WriteLine($"ERROR: NO BOARDS WON. len = {bingos.Count}");
             return winnerSums[^1];
         }
     }
