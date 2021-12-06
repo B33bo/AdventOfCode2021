@@ -9,7 +9,7 @@ namespace AdventOfCode2021
         static void Main(string[] args)
         {
             //Console.WriteLine(Day5.SolveA());
-            Console.WriteLine(Day5.SolveB());
+            Console.WriteLine(Day6.SolveA());
             /*Vector2.Intersections(new(1, 1), new(7, 7), true);
             Console.WriteLine();
 

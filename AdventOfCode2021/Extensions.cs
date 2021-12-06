@@ -17,7 +17,7 @@ namespace AdventOfCode2021
             return path + @"\" + RelativeLoc;
         }
 
-        public static string ToRealString(this List<string> inputList, string seperator)
+        public static string ToRealString<T>(this List<T> inputList, string seperator)
         {
             if (inputList.Count == 0)
                 return "";
